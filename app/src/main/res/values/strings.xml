@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Album</string>
+    <string name="d">Detail</string>
+    <string name="m">Main</string>
+</resources>

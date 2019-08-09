@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:padding="10dp"
+                                             android:layout_margin="2dp"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="70dp">
+
+    <TextView
+            android:text="@string/m"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvMain"
+            android:textStyle="bold"
+            android:typeface="normal"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginEnd="12dp"
+            tools:ignore="MissingConstraints"/>
+    <!--android:fontFamily="Roboto"-->
+    <TextView
+            android:text="@string/d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDetail"
+            app:layout_constraintStart_toStartOf="@+id/tvMain"
+            app:layout_constraintEnd_toEndOf="@+id/tvMain"
+            app:layout_constraintTop_toBottomOf="@+id/tvMain"
+            android:textStyle="bold"
+            android:typeface="normal"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="12dp"/>
+    <!--android:fontFamily="Roboto"-->
+</android.support.constraint.ConstraintLayout>
